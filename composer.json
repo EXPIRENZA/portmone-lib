@@ -1,0 +1,24 @@
+{
+  "name": "expirenza/portmone-lib",
+  "description": "Helper for Portmone payment system",
+  "type": "library",
+  "version": "0.0.1",
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Moiseykin",
+      "email": "info@expirenza.com",
+      "homepage": "https://expirenza.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Expirenza\\portmone\\": "lib/",
+      "Expirenza\\portmone\\entities\\": "lib/entities"
+    }
+  }
+}
