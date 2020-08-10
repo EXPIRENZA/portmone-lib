@@ -4,12 +4,9 @@
 namespace Expirenza\portmone;
 
 
-use Expirenza\portmone\entities\Actor;
 use Expirenza\portmone\entities\Auth;
-use Expirenza\portmone\entities\Card;
 use Expirenza\portmone\entities\Client;
 use Expirenza\portmone\entities\Order;
-use Expirenza\portmone\entities\Seller;
 
 interface PortmoneInterface
 {
