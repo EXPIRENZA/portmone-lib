@@ -2,18 +2,18 @@
 
 namespace Expirenza\portmone;
 
-use Expirenza\portmone\instances\Actor;
-use Expirenza\portmone\instances\Auth;
-use Expirenza\portmone\instances\Card;
-use Expirenza\portmone\instances\Client;
-use Expirenza\portmone\instances\Order;
-use Expirenza\portmone\instances\Request;
-use Expirenza\portmone\instances\RequestForPayment;
-use Expirenza\portmone\instances\RequestForStatus;
-use Expirenza\portmone\instances\RequestForToken;
-use Expirenza\portmone\instances\Response;
-use Expirenza\portmone\instances\ResponseOrderStatus;
-use Expirenza\portmone\instances\ResponseReturn;
+use Expirenza\portmone\entities\Actor;
+use Expirenza\portmone\entities\Auth;
+use Expirenza\portmone\entities\Card;
+use Expirenza\portmone\entities\Client;
+use Expirenza\portmone\entities\Order;
+use Expirenza\portmone\entities\Request;
+use Expirenza\portmone\entities\RequestForPayment;
+use Expirenza\portmone\entities\RequestForStatus;
+use Expirenza\portmone\entities\RequestForToken;
+use Expirenza\portmone\entities\Response;
+use Expirenza\portmone\entities\ResponseOrderStatus;
+use Expirenza\portmone\entities\ResponseReturn;
 
 class Portmone implements PortmoneInterface
 {

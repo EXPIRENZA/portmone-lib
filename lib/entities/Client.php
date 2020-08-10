@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Expirenza\portmone\instances;
+namespace Expirenza\portmone\entities;
 
 
 class Client
