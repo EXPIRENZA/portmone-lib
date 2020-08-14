@@ -2,7 +2,7 @@
   "name": "expirenza/portmone-lib",
   "description": "Helper for Portmone payment system",
   "type": "library",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "require": {
     "php": ">=7.0.0"
   },

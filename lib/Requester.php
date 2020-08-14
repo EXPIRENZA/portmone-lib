@@ -98,7 +98,6 @@ class Requester
             ])
         );
         $this->responseBody = $result;
-        //file_put_contents('text.txt', $result);
         $this->responseCode = (int)substr($http_response_header[0], 9, 3); // e.g. 403 from "HTTP/1.1 403 Forbidden"
         if (200 !== intval($this->responseCode) && 302 !== intval($this->responseCode)) {
             return false;
