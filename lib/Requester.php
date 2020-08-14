@@ -10,6 +10,7 @@ use Expirenza\portmone\entities\Request;
 
 class Requester
 {
+
     const API_URL = 'https://www.portmone.com.ua/gateway/';
 
     public $request;
