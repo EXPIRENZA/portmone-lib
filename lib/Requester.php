@@ -4,8 +4,8 @@
 namespace Expirenza\portmone;
 
 
-use Expirenza\portmone\instances\Request;
-use Expirenza\portmone\instances\RequestForStatus;
+use Expirenza\portmone\entities\RequestForStatus;
+use Expirenza\portmone\entities\Request;
 
 
 class Requester

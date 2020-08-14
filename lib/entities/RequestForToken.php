@@ -20,6 +20,7 @@ class RequestForToken extends Request
 
         $this->order = new OrderRequest();
         $this->order->successUrl = $returnUrl;
+        $this->order->failureUrl = $returnUrl;
 
         $this->token = new TokenRequest();
         $this->token->tokenFlag = "N";
